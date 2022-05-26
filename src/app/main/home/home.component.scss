@@ -1,0 +1,38 @@
+div.title{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    left: 5%;
+    background-color: transparent;
+
+    h1,h2{
+        margin: 0;
+        font-size: 80px;
+    }
+
+    h2{
+        text-align: end;
+    }
+
+}
+
+div.subtitle{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    background-color: transparent;
+
+    h2{
+        font-size: 80px;
+        margin: 0;
+
+        &#subtitle__stacks{
+            margin-right: 30px;
+        }
+
+        &#subtitle__info{
+            text-align:right;
+        }
+    }
+}

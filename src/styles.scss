@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@use './variables';
+
+*{
+    color: variables.$dark-color;
+}
+
+body, div{
+    margin: 0;
+    background-color: variables.$light2-color;
+}
+
+.font_title{
+    font-family: 'Almarai', 'Sawarabi Gothic', sans-serif;
+}
+
+.font_cursive{
+    font-family: 'Allura', 'Courgette', cursive;
+}
+
+body{
+    padding: 20px 35px;
+}

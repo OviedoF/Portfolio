@@ -1,0 +1,27 @@
+.carrousel_container{
+    width: 400%;
+    display: flex;
+    position: relative;
+    transition: all 1s ease-in;
+}
+
+.carrousel_container *{
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+svg{
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+
+    &#left{
+        left: 20px;
+    }
+
+    &#right{
+        right: 20px;
+    }
+}
