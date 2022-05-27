@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tecnology-card',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tecnology-card.component.scss']
 })
 export class TecnologyCardComponent implements OnInit {
+  @Input() habilityToCard: any;
 
   constructor() { }
 

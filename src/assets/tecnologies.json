@@ -1,0 +1,66 @@
+[
+    {
+      "name": "html5",
+      "imgUrl": "../../../../assets/imgs/tecnologies/html5.png",
+      "description": "html XD"
+    },
+    {
+      "name": "css3",
+      "imgUrl": "../../../../assets/imgs/tecnologies/css3.png",
+      "description": "css3"
+    },{
+      "name": "bootstrap",
+      "imgUrl": "../../../../assets/imgs/tecnologies/bootstrap.png",
+      "description": "bootstrap XD"
+    },
+    {
+      "name": "javascript",
+      "imgUrl": "../../../../assets/imgs/tecnologies/javascript.png",
+      "description": "javascript"
+    },
+    {
+        "name": "sass",
+        "imgUrl": "../../../../assets/imgs/tecnologies/sass.png",
+        "description": "sass XD"
+    },
+    {
+        "name": "git",
+        "imgUrl": "../../../../assets/imgs/tecnologies/git.png",
+        "description": "git"
+    },
+    {
+        "name": "react",
+        "imgUrl": "../../../../assets/imgs/tecnologies/react.png",
+        "description": "react XD"
+    },
+    {
+        "name": "typescript",
+        "imgUrl": "../../../../assets/imgs/tecnologies/typescript.png",
+        "description": "typescript"
+    },
+    {
+      "name": "angular",
+      "imgUrl": "../../../../assets/imgs/tecnologies/angular.png",
+      "description": "angular"
+    },
+    {
+        "name": "database",
+        "imgUrl": "../../../../assets/imgs/tecnologies/databases.png",
+        "description": "database XD"
+    },
+    {
+        "name": "nodejs",
+        "imgUrl": "../../../../assets/imgs/tecnologies/nodejs.png",
+        "description": "nodejs"
+    },
+    {
+        "name": "python",
+        "imgUrl": "../../../../assets/imgs/tecnologies/python.png",
+        "description": "python XD"
+    },
+    {
+        "name": "react-native",
+        "imgUrl": "../../../../assets/imgs/tecnologies/reactNative.png",
+        "description": "react-native"
+    }
+  ]
