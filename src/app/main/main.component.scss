@@ -1,7 +1,7 @@
 .carrousel_container{
     width: 100%;
     position: relative;
-    transition: all 1s ease-in;
+    transition: all 1.5s ease-in;
 }
 
 .carrousel_container *{
@@ -28,6 +28,10 @@ svg{
 
 @keyframes hola {
     0%{
+        clip-path: polygon(100% 0, 50% 51%, 0 100%, 50% 51%);
+    }
+
+    10%{
         clip-path: polygon(100% 0, 50% 51%, 0 100%, 50% 51%);
     }
 

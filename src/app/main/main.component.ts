@@ -21,7 +21,7 @@ export class MainComponent implements OnInit {
 
     console.log(this._positionService.mainDiv);
 
-    this._renderer2.setStyle(this.mainContainer.nativeElement, 'animation', 'chau 1s ease-in');
+    this._renderer2.setStyle(this.mainContainer.nativeElement, 'animation', 'chau 0.9s ease-in');
 
     setTimeout(() => {
       this._renderer2.setStyle(this.mainContainer.nativeElement, 'animation', 'hola 1s ease-in')
