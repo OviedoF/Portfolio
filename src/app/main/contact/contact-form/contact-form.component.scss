@@ -1,0 +1,51 @@
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    height: 100%;
+    padding-right: 50px;
+    padding-top: 20px;
+
+    p{
+        margin: 0;
+        margin-top: 10px;
+        
+    }
+
+    input, textarea{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        box-sizing: border-box;
+        height: 12%;
+        padding: 0;
+        
+        &#job &#email{
+            width: 50%;
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    textarea{
+        margin-top: 50px;
+        height: 80px;
+    }
+
+    button{
+        cursor: pointer;
+        background-color: none;
+        border: none;
+        position:absolute;
+        bottom: 10%;
+        background-color: transparent;
+        left: 45%;
+        
+        i{
+            font-size: 30px;
+        }
+    }
+    
+}

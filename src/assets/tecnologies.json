@@ -2,65 +2,65 @@
     {
       "name": "html5",
       "imgUrl": "../../../../assets/imgs/tecnologies/html5.png",
-      "description": "html XD"
+      "description": "La primera tecnología y la indispensable, fui mejorando mi maquetado y conocimientos de SEO con el tiempo."
     },
     {
       "name": "css3",
       "imgUrl": "../../../../assets/imgs/tecnologies/css3.png",
-      "description": "css3"
+      "description": "La segunda tecnología y una de las cuales nunca se deja de aprender, me enfoco en seguir aprendiendo mucho con el tiempo para lograr mejores animaciones."
     },{
       "name": "bootstrap",
       "imgUrl": "../../../../assets/imgs/tecnologies/bootstrap.png",
-      "description": "bootstrap XD"
+      "description": "Una herramienta que es muy útil en el proceso de aprendizaje, pero ahora no suelo usarla mucho."
     },
     {
       "name": "javascript",
       "imgUrl": "../../../../assets/imgs/tecnologies/javascript.png",
-      "description": "javascript"
+      "description": "La tercera tecnología y una de mis favoritas, como css es tan extenso que se sigue aprendiendo más con el tiempo."
     },
     {
         "name": "sass",
         "imgUrl": "../../../../assets/imgs/tecnologies/sass.png",
-        "description": "sass XD"
+        "description": "Mi mano derecha en cuanto a estilos en una página, suelo usarlo muy frecuentemente y me siento cómodo."
     },
     {
         "name": "git",
         "imgUrl": "../../../../assets/imgs/tecnologies/git.png",
-        "description": "git"
+        "description": "Controlador de versiones que uso para mis proyectos, muy útil y le tengo cariño."
     },
     {
         "name": "react",
         "imgUrl": "../../../../assets/imgs/tecnologies/react.png",
-        "description": "react XD"
+        "description": "Mi framework por excelencia, pude aprender desde lo básico hasta Redux y NextJS para ssr. Me siento muy cómodo con él y lo entiendo muy bien."
     },
     {
         "name": "typescript",
         "imgUrl": "../../../../assets/imgs/tecnologies/typescript.png",
-        "description": "typescript"
+        "description": "Herramienta que aprendí para llevar mi JavaScript a otro nivel y para aprender Angular, me interesó mucho."
     },
     {
       "name": "angular",
       "imgUrl": "../../../../assets/imgs/tecnologies/angular.png",
-      "description": "angular"
+      "description": "Mi segundo framework, pude aprenderlo rápido gracias a la lógica desarrollada anteriormente con React, y siento mucho potencial."
     },
     {
         "name": "database",
         "imgUrl": "../../../../assets/imgs/tecnologies/databases.png",
-        "description": "database XD"
+        "description": "SQL y NoSQL, suelo usar MySQL y MongoDB. Desde chico tuve interés por aprender y ahora me siento cómodo con los ya mencionados."
     },
     {
         "name": "nodejs",
         "imgUrl": "../../../../assets/imgs/tecnologies/nodejs.png",
-        "description": "nodejs"
+        "description": "JavaScript para el backend, me permitió concentrarme en la lógica y no en la sintáxis. Estoy muy cómodo usándolo como backend."
     },
     {
         "name": "python",
         "imgUrl": "../../../../assets/imgs/tecnologies/python.png",
-        "description": "python XD"
+        "description": "Otro lenguaje que me interesa mucho para el backend, me interesa saber su potencial con DJango y Flask."
     },
     {
         "name": "react-native",
         "imgUrl": "../../../../assets/imgs/tecnologies/reactNative.png",
-        "description": "react-native"
+        "description": "Mi primera herramienta para inclinarme a la programación móvil, aprender nuevos conocimientos y ver desde otro punto de vista lo que hago."
     }
   ]

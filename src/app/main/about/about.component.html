@@ -1,41 +1,43 @@
-<div id="pictures">
-    <div class="me">
-        <img src="../../../assets/imgs/picofme.jpeg" style="width: 60px;" alt="picture of me">
-        <div class="personalData">
-            <h3>Federico Oviedo</h3>
-            <p>FullStack Developer</p>
+<div id="about__container">
+    <div id="pictures">
+        <div class="me">
+            <img src="../../../assets/imgs/picofme.jpeg" style="width: 60px;" alt="picture of me">
+            <div class="personalData">
+                <h3>Federico Oviedo</h3>
+                <p>FullStack Developer</p>
+            </div>
         </div>
+    
+        <app-tecnology-card class="tecnologyCard" [habilityToCard]="active"></app-tecnology-card>
     </div>
-
-    <app-tecnology-card class="tecnologyCard" [habilityToCard]="active"></app-tecnology-card>
-</div>
-
-<div id="presentation">
-    <h2 class="font_title">Soy sólo un chico de 19 años al que le gusta la programación.</h2>
-
-    <p>Empecé finalizando los 16 años, me atrajo mucho la programación y lo que podía lograr. 
-    Me incliné por el desarrollo web y tomé varios cursos en donde me inicie en mis tecnologías, pero me considero mejor autodidacta y creo que mi potencial está en aprender e investigar por mí mismo.
-    Actualmente estoy dando clases de Front-End por cuenta propia, siento que se me da bien enseñar y puedo aprender más sobre mis tecnologías desde otro punto de vista; además de complementar
-    mi carrera de Ingeniería en Computación.</p>
-
-    <div class="tecnologies">
-        <i class="fa-brands fa-html5" id="html5" (mouseenter)="setActive($event)"></i>
-        <i class="fa-brands fa-css3-alt" id="css3" (mouseenter)="setActive($event)"></i>
-        <i class="fa-brands fa-bootstrap" id="bootstrap" (mouseenter)="setActive($event)"></i>
-        <i class="fa-brands fa-js" id="javascript" (mouseenter)="setActive($event)"></i>
-        <i class="fa-brands fa-sass" id="sass" (mouseenter)="setActive($event)"></i>
-        <i class="fa-brands fa-git-alt" id="git" (mouseenter)="setActive($event)"></i>
-        <i class="fa-brands fa-react" id="react" (mouseenter)="setActive($event)"></i>
-        <img src="../../../assets/imgs/tecnologies/typescript.png" alt="typescript" id="typescript" (mouseenter)="setActive($event)">
-        <i class="fa-brands fa-angular" (mouseenter)="setActive($event)"></i>
-        <i class="fa-solid fa-database" id="database" (mouseenter)="setActive($event)"></i>
-        <i class="fa-brands fa-node-js" id="nodejs" (mouseenter)="setActive($event)"></i>
-    </div>
-
-    <p>y tengo en proceso: </p>
-
-    <div class="tecnologies inprocess">
-        <i class="fa-brands fa-python" id="python" (mouseenter)="setActive($event)"></i>
-        <img src="../../../assets/imgs/tecnologies/reactNative.png" alt="react native" id="react-native" (mouseenter)="setActive($event)">
+    
+    <div id="presentation">
+        <h2 class="font_title">Soy sólo un chico de 19 años al que le gusta la programación.</h2>
+    
+        <p>Empecé finalizando los 16 años, me atrajo mucho la programación y lo que podía lograr. 
+        Me incliné por el desarrollo web y tomé varios cursos en donde me inicie en mis tecnologías, pero me considero mejor autodidacta y creo que mi potencial está en aprender e investigar por mí mismo.
+        Actualmente estoy dando clases de Front-End por cuenta propia, siento que se me da bien enseñar y puedo aprender más sobre mis tecnologías desde otro punto de vista; además de complementar
+        mi carrera de Ingeniería en Computación.</p>
+    
+        <div class="tecnologies">
+            <i class="fa-brands fa-html5" id="html5" (mouseenter)="setActive($event)"></i>
+            <i class="fa-brands fa-css3-alt" id="css3" (mouseenter)="setActive($event)"></i>
+            <i class="fa-brands fa-bootstrap" id="bootstrap" (mouseenter)="setActive($event)"></i>
+            <i class="fa-brands fa-js" id="javascript" (mouseenter)="setActive($event)"></i>
+            <i class="fa-brands fa-sass" id="sass" (mouseenter)="setActive($event)"></i>
+            <i class="fa-brands fa-git-alt" id="git" (mouseenter)="setActive($event)"></i>
+            <i class="fa-brands fa-react" id="react" (mouseenter)="setActive($event)"></i>
+            <img src="../../../assets/imgs/tecnologies/typescript.png" alt="typescript" id="typescript" (mouseenter)="setActive($event)">
+            <i class="fa-brands fa-angular" id="angular" (mouseenter)="setActive($event)"></i>
+            <i class="fa-solid fa-database" id="database" (mouseenter)="setActive($event)"></i>
+            <i class="fa-brands fa-node-js" id="nodejs" (mouseenter)="setActive($event)"></i>
+        </div>
+    
+        <p>y tengo en proceso: </p>
+    
+        <div class="tecnologies inprocess">
+            <i class="fa-brands fa-python" id="python" (mouseenter)="setActive($event)"></i>
+            <img src="../../../assets/imgs/tecnologies/reactNative.png" alt="react native" id="react-native" (mouseenter)="setActive($event)">
+        </div>
     </div>
 </div>

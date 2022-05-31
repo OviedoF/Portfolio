@@ -1,1 +1,11 @@
-<p>projects works!</p>
+<div id="projects-container">
+    <img [src]="projectActive.imgUrl" alt="">
+    
+    <app-project-card id="project_card_component" [project]="projectActive"></app-project-card>
+
+    <div class="projects__names">
+        <h2 *ngFor="let project of projectsArray">
+            <h2 [id]="project.id" (mouseenter)="setProjectActive($event)">{{project.name}}</h2>
+        </h2>
+    </div>
+</div>

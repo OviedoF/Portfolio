@@ -13,8 +13,6 @@ export class AboutComponent implements OnInit {
   setActive(e:Event){
     const target = (<HTMLElement>e.target);
     this.active = (data.filter(el => el.name === target.id))[0];
-
-    console.log(this.active);
   }
 
   constructor() { }

@@ -1,6 +1,5 @@
 .carrousel_container{
-    width: 400%;
-    display: flex;
+    width: 100%;
     position: relative;
     transition: all 1s ease-in;
 }
@@ -16,6 +15,7 @@ svg{
     cursor: pointer;
     position: absolute;
     top: 47%;
+    z-index: 9999;
 
     &#left{
         left: 20px;
@@ -23,5 +23,33 @@ svg{
 
     &#right{
         right: 20px;
+    }
+}
+
+@keyframes hola {
+    0%{
+        clip-path: polygon(100% 0, 50% 51%, 0 100%, 50% 51%);
+    }
+
+    50%{
+        clip-path: polygon(100% 0, 50% 51%, 0 100%, 100% 100%);
+    }
+
+    100%{
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    }
+}
+
+@keyframes chau {
+    0%{
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    }
+
+    50%{
+        clip-path: polygon(100% 0, 49% 50%, 0 100%, 0 0);
+    }
+
+    100%{
+        clip-path: polygon(100% 0, 50% 51%, 0 100%, 50% 51%);
     }
 }

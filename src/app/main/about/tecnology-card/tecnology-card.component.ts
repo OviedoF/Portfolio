@@ -8,7 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TecnologyCardComponent implements OnInit {
   @Input() habilityToCard: any;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

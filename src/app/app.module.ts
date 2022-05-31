@@ -13,7 +13,17 @@ import { ContactComponent } from './main/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { PictureColumnsComponent } from './main/home/picture-columns/picture-columns.component';
 import { TecnologyCardComponent } from './main/about/tecnology-card/tecnology-card.component';
+import { ProjectCardComponent } from './main/projects/project-card/project-card.component';
+import { ContactFormComponent } from './main/contact/contact-form/contact-form.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
+const appRoutes:Routes = [
+  {path: '', component: HomeComponent},
+  {path: 'about', component: AboutComponent},
+  {path: 'projects', component: ProjectsComponent},
+  {path: 'contact', component: ContactComponent}
+]
 
 @NgModule({
   declarations: [
@@ -26,12 +36,16 @@ import { TecnologyCardComponent } from './main/about/tecnology-card/tecnology-ca
     ProjectsComponent,
     ContactComponent,
     PictureColumnsComponent,
-    TecnologyCardComponent
+    TecnologyCardComponent,
+    ProjectCardComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes),
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

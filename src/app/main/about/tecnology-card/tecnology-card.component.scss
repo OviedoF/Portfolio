@@ -13,9 +13,16 @@
     img{
         margin-top: 20px;
         width: 40%;
+        max-height: 30%;
+        object-fit: contain;
     }
 
     H2{
         text-transform: uppercase;
+    }
+
+    p{
+        padding: 0px 30px;
+        box-sizing: border-box;
     }
 }

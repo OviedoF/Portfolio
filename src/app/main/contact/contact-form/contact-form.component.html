@@ -1,0 +1,30 @@
+<form action="https://formsubmit.co/oviedofederico039@gmail.com" method="POST" class="contact__form">
+    <p>Hola! Mi nombre es: 
+        <input type="text" name="name" 
+        required placeholder="Tu nombre (requerido)" id="inputNombre" 
+        #inputNombre (keyup)="validityInfo($event)" [(ngModel)]="form.name"> 
+
+        y te contacto para 
+
+        <input 
+        type="text" name="job" 
+        id="job" placeholder="Un proyecto, página, trabajo full/part-time" [(ngModel)]="form.job">. 
+
+        Puedes encontrarme con mi gmail: 
+
+        <input type="email" name="email" id="email" 
+        required placeholder="Tu email (requerido)" id="inputEmail" 
+        (keyup)="validityInfo($event)" [(ngModel)]="form.email"> 
+
+        o mi LinkedIn: 
+
+        <input type="text" name="linkedinName" id="linkedinName" 
+        placeholder="Tu usuario de linkedin" [(ngModel)]="form.linkedin">.
+    </p>
+
+    <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripción, detalles o más información que quieras que sepa." [(ngModel)]="form.details"></textarea>
+    
+    <button type="submit">
+        <i class="fa-solid fa-arrow-right" (click)="sendForm()"></i>
+    </button>
+</form>

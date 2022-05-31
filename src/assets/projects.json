@@ -1,0 +1,49 @@
+[
+    {
+      "id": "alurageek",
+      "name": "Alura Geek eCommerce",
+      "imgUrl": "../../../../assets/imgs/projects/alurageek.png",
+      "description": "alura geek :D"
+    },
+    {
+      "id": "animalcrossing",
+      "name": "Animal Crossing",
+      "imgUrl": "../../../../assets/imgs/projects/animalcrossing.png",
+      "description": "La segunda tecnología y una de las cuales nunca se deja de aprender, me enfoco en seguir aprendiendo mucho con el tiempo para lograr mejores animaciones."
+    },{
+      "id": "kittynotes",
+      "name": "Kitty Notes",
+      "imgUrl": "../../../../assets/imgs/projects/kittynotes.png",
+      "description": "Una herramienta que es muy útil en el proceso de aprendizaje, pero ahora no suelo usarla mucho."
+    },
+    {
+      "id": "taskmeapp",
+      "name": "TaskMe App",
+      "imgUrl": "../../../../assets/imgs/projects/taskmeapp.png",
+      "description": "La tercera tecnología y una de mis favoritas, como css es tan extenso que se sigue aprendiendo más con el tiempo."
+    },
+    {
+        "id": "portfoliovanilla",
+        "name": "Portafolio Vanilla JS",
+        "imgUrl": "../../../../assets/imgs/projects/portfoliovanilla.png",
+        "description": "Mi mano derecha en cuanto a estilos en una página, suelo usarlo muy frecuentemente y me siento cómodo."
+    },
+    {
+        "id": "portfolioreact",
+        "name": "Portafolio React",
+        "imgUrl": "../../../../assets/imgs/projects/portfolioalura.png",
+        "description": "Controlador de versiones que uso para mis proyectos, muy útil y le tengo cariño."
+    },
+    {
+        "id": "lyricsfinder",
+        "name": "Lyrics Finder",
+        "imgUrl": "../../../../assets/imgs/projects/lyricsfinder.png",
+        "description": "Mi framework por excelencia, pude aprender desde lo básico hasta Redux y NextJS para ssr. Me siento muy cómodo con él y lo entiendo muy bien."
+    },
+    {
+        "id": "nostrusairlines",
+        "name": "Nostrus Airlines",
+        "imgUrl": "../../../../assets/imgs/projects/nostrusairlines.png",
+        "description": "Herramienta que aprendí para llevar mi JavaScript a otro nivel y para aprender Angular, me interesó mucho."
+    }
+  ]
